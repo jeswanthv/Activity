@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="activity_b_thread_counter_text">Activity B occupies the complete window real-estate. The Android OS forces the Activity A to be paused. However, the background thread keeps incrementing the counter: %1$d</string>
+    <string name="activity_c_thread_counter_text">Activity C occupies the complete window real-estate. The Android OS forces the Activity A to be paused. However, the background thread keeps incrementing the counter: %1$d</string>
+</resources>
