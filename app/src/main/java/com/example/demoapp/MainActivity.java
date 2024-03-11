@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         startActivityCButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                restartCounter += 10; // Assuming you want to increment by 10 for ActivityC
+                restartCounter += 10;
                 android.content.Intent intent = new
                         android.content.Intent(MainActivity.this, ActivityC.class);
                 startActivity(intent);
@@ -82,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
         builder.setMessage("Simple Dialog")
                 .setPositiveButton("Close", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        // User clicked Close button
                     }
                 });
         builder.create().show();
